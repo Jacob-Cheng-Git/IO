@@ -26,6 +26,11 @@ public class TestStream {
         bufferedreader bufferedreader = new bufferedreader();
         bufferedreader.TestBufferedReader();
 
+        //测试缓存字符输出流PrintWriter
+        System.out.println("测试缓存字符输出流PrintWriter");
+        printwriter printwriter = new printwriter();
+        printwriter.TestPrintWriter();
+
     }
 
 }
