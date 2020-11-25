@@ -21,6 +21,11 @@ public class TestStream {
         filewriter filewriter = new filewriter();
         filewriter.TestFileWriter();
 
+        //测试缓存流BufferedReader
+        System.out.println("测试缓存流BufferedReader");
+        bufferedreader bufferedreader = new bufferedreader();
+        bufferedreader.TestBufferedReader();
+
     }
 
 }
