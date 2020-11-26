@@ -1,7 +1,10 @@
+import ObjectStream.objectstream;
+
 public class TestStream {
 
     public static void main(String[] args) {
        //测试字节输入流，把数据输入到内存
+/*
         System.out.println("测试字节输入流");
         fileinputstream inputstream = new fileinputstream();
         inputstream.TestFileInputStream();
@@ -36,6 +39,12 @@ public class TestStream {
         datastream datastream = new datastream();
         datastream.write();
         datastream.read();
+*/
+
+        //测试对象流
+        System.out.println("测试对象流ObjectStream");
+        objectstream objectstream = new objectstream();
+        objectstream.TestObjectStream();
 
     }
 
