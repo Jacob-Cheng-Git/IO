@@ -1,3 +1,5 @@
+package DataStream;
+
 import java.io.*;
 
 public class datastream {
