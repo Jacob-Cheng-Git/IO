@@ -17,6 +17,9 @@ public class datastream {
     }
 
     public  void read(){
+        //要用DataInputStream 读取一个文件，这个文件必须是由DataOutputStream 写出的，
+        // 否则会出现EOFException，因为DataOutputStream 在写出的时候会做一些特殊标记，
+        // 只有DataInputStream 才能成功的读取。
         File file = new File("d:/lol.txt");
         try (
             FileInputStream fileInputStream = new FileInputStream(file);

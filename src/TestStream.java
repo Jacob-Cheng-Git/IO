@@ -2,7 +2,7 @@ public class TestStream {
 
     public static void main(String[] args) {
        //测试字节输入流，把数据输入到内存
-/*        System.out.println("测试字节输入流");
+        System.out.println("测试字节输入流");
         fileinputstream inputstream = new fileinputstream();
         inputstream.TestFileInputStream();
 
@@ -29,7 +29,7 @@ public class TestStream {
         //测试缓存字符输出流PrintWriter
         System.out.println("测试缓存字符输出流PrintWriter");
         printwriter printwriter = new printwriter();
-        printwriter.TestPrintWriter();*/
+        printwriter.TestPrintWriter();
 
         //测试数据流
         System.out.println("测试数据流DataStream");
